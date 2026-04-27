@@ -1,4 +1,3 @@
--- Write your SQL query below:
 DROP TABLE IF EXISTS flight_crew CASCADE;
 DROP TABLE IF EXISTS passengers CASCADE;
 DROP TABLE IF EXISTS flights CASCADE;
@@ -7,9 +6,7 @@ DROP TABLE IF EXISTS crew CASCADE;
 DROP TABLE IF EXISTS airports CASCADE;
 DROP TABLE IF EXISTS aircraft CASCADE;
 
--- ============================================================
--- SCHEMA CREATION
--- ============================================================
+
 
 CREATE TABLE aircraft (
     aircraft_id BIGSERIAL PRIMARY KEY,
@@ -403,6 +400,3 @@ WHERE first_name = 'Demo'
   AND last_name = 'Passenger'
   AND flight_id = 1;
 
--- ============================================================
--- END OF SCRIPT
--- ============================================================
